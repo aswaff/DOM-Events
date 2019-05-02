@@ -1,0 +1,85 @@
+body {
+  align-content: center;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+}
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.checkmark {
+  background:url("checkmark.png") no-repeat;
+  display: inline-block;
+  display: none;
+  background-size: cover;
+  border: 0px;
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.xmark {
+  background: url("xmark.png") no-repeat;
+  display: inline-block;
+  display: none;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+}
+
+li {
+font-size: 20px;
+font-family: cursive;
+width: 200px;
+
+}
+
+li:hover div {
+  display: block;
+  display: inline-block;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+#first {
+  font-family: cursive;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#fcontent {
+  display: inline-block;
+  text-align: left;
+}
